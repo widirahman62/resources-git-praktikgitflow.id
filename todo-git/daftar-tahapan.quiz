@@ -1,0 +1,75 @@
+# Daftar Tugas
+
+## Git Local
+
+- [ ] Tahap 1.1 Integrasi proyek dengan Git
+- [ ] Tahap 1.2 Menyimpan file-file proyek dalam commit dengan pesan "Initial commit"
+- [ ] Tahap 1.3 Menyilang status tahapan pada file `sedang-dikerjakan.md` (poin 1.1) sebagai commit dengan pesan "feat: implement project v0.1.0" menggunakan tag `v0.1.0`
+- [ ] Tahap 1.4 Membuat branch `develop`
+- [ ] Tahap 1.5 Pindah ke branch `develop`
+- [ ] Tahap 1.6 Menyilang status tahapan pada file `sedang-dikerjakan.md` (poin 1.2) dan `selesai-dikerjakan.md` (poin 1.1) sebagai commit dengan pesan "feat: base configuration"
+- [ ] Tahap 2.1 Membuat branch `feature/a`
+- [ ] Tahap 2.2 Membuat branch `feature/b`
+- [ ] Tahap 2.3 Pindah ke branch `feature/a`
+- [ ] Tahap 2.4 Menyilang status tahapan pada file `sedang-dikerjakan.md` (poin 1.3) sebagai commit dengan pesan "feat: implement feature-a"
+- [ ] Tahap 2.5 Pindah ke branch `feature/b`
+- [ ] Tahap 2.6 Menyilang status tahapan pada file `sedang-dikerjakan.md` (poin 1.4) sebagai commit dengan pesan "feat: implement feature-b"
+- [ ] Tahap 2.7 Pindah ke branch `develop`
+- [ ] Tahap 2.8 Menggabungkan branch dari `feature/a` ke `develop` sebagai commit dengan pesan "Merge branch 'feature/a' into develop"
+- [ ] Tahap 2.9 Menghapus branch `feature/a`
+- [ ] Tahap 2.10 Menggabungkan branch dari `feature/b` ke `develop` sebagai commit dengan pesan "Merge branch 'feature/b' into develop"
+- [ ] Tahap 2.11 Menghapus branch `feature/b`
+- [ ] Tahap 2.12 Membuat branch `release/v0.2.0`
+- [ ] Tahap 2.13 Pindah ke branch `release/v0.2.0`
+- [ ] Tahap 2.14 Menyilang status tahapan pada file `sedang-dikerjakan.md` (poin 1.5 hingga 1.7), dan `selesai-dikerjakan.md` (poin 1.2) sebagai commit dengan pesan "feat: release feature/a and feature/b"
+- [ ] Tahap 3.1 Pindah ke branch `develop`
+- [ ] Tahap 3.2 Menggabungkan branch dari `release/v0.2.0` ke `develop` sebagai commit dengan pesan "Merge branch 'release/v0.2.0' into develop"
+- [ ] Tahap 3.3 Pindah ke branch `main`
+- [ ] Tahap 3.4 Menggabungkan branch dari `release/v0.2.0` ke `main` sebagai commit dengan pesan "Merge branch 'release/v0.2.0'" menggunakan tag `v0.2.0`
+- [ ] Tahap 3.5 Membuat branch `hotfix/v0.2.1`
+- [ ] Tahap 3.6 Pindah ke branch `hotfix/v0.2.1`
+- [ ] Tahap 3.7 Menyilang status tahapan pada file `sedang-dikerjakan.md` (poin 1.8 hingga 1.10), dan `selesai-dikerjakan.md` (poin 1.3) sebagai commit dengan pesan "fix: fulfill the empty status in 'Git Local' task"
+- [ ] Tahap 3.8 Pindah ke branch `develop`
+- [ ] Tahap 3.9 Menggabungkan branch dari `hotfix/v0.2.1` ke `develop` sebagai commit dengan pesan "Merge branch 'hotfix/v0.2.1' into develop"
+- [ ] Tahap 3.10 Pindah ke branch `main`
+- [ ] Tahap 3.11 Menggabungkan branch dari `hotfix/v0.2.1` ke `main` sebagai commit dengan pesan "Merge branch 'hotfix/v0.2.1' into main" menggunakan tag `v0.2.1`
+- [ ] Tahap 3.12 Menghapus branch `hotfix/v0.2.1`
+
+## Git Remote
+
+- [ ] Tahap 4.1 Menghubungkan proyek "Git Local" dengan Github
+- [ ] Tahap 4.2 Melakukan push semua branch dan tag dari proyek "Git Local" ke Remote Repository
+- [ ] Tahap 4.3 Mengaktifkan proteksi ke branch `main`, `release/*`, dan `develop` di Remote Repository
+- [ ] Tahap 4.4 Pindah ke branch `develop`
+- [ ] Tahap 4.5 Membuat branch `feature/c`
+- [ ] Tahap 4.6 Membuat branch `feature/d`
+- [ ] Tahap 4.7 Pindah ke branch `feature/c`
+- [ ] Tahap 4.8 Menyilang status tahapan pada file `sedang-dikerjakan.md` (poin 2.1 dan 2.2) sebagai commit dengan pesan "feat: implement feature-c"
+- [ ] Tahap 4.9 Memperbarui remote tracking branch dan melakukan push terhadap branch `feature/c` ke Remote Repository
+- [ ] Tahap 4.10 Melakukan pull request dari branch `feature/c` ke branch `develop` sebagai commit dengan pesan "Merge branch 'feature/c' into develop"
+- [ ] Tahap 4.11 Menghapus branch `feature/c` di Remote Repository
+- [ ] Tahap 4.12 Kembali ke proyek di komputer lokal dan pindah ke branch `feature/d`
+- [ ] Tahap 4.13 Menyilang status tahapan pada file `sedang-dikerjakan.md` (poin 2.3 dan 2.4) sebagai commit dengan pesan "feat: implement feature-d"
+- [ ] Tahap 4.14 Memperbarui remote tracking branch dan melakukan push terhadap branch `feature/d` ke Remote Repository
+- [ ] Tahap 4.15 Membuat pull request dari branch `feature/d` ke branch `develop` di Remote Repository
+- [ ] Tahap 4.16 Jika terjadi masalah, kembali ke proyek di komputer lokal dan perbarui remote tracking branch menggunakan git fetch
+- [ ] Tahap 4.17 Menggabungkan branch `feature/d` ke remote tracking branch `origin/develop`
+- [ ] Tahap 4.18 Menyelesaikan masalah penggabungan branch `feature/d` ke remote tracking branch `origin/develop` sebagai commit dengan pesan "Merge remote-tracking branch 'origin/develop' into feature/d"
+- [ ] Tahap 4.19 Memperbarui remote tracking branch dan melakukan push terhadap branch `feature/d` terkini ke Remote Repository
+- [ ] Tahap 4.20 Menyelesaikan pull request dari branch `feature/d` ke branch `develop` sebagai commit dengan pesan "Merge branch 'feature/d' into develop"
+- [ ] Tahap 4.21 Menghapus branch `feature/d` di Remote Repository
+- [ ] Tahap 4.22 Kembali ke proyek di komputer lokal dan pindah ke branch `develop`
+- [ ] Tahap 4.23 Menyesuaikan remote tracking branch terhadap branch di Remote Repository (termasuk branch yang dihapus) dengan memperbaruinya menggunakan git fetch -p
+- [ ] Tahap 4.24 Melakukan pull untuk menerapkan pembaruan dari branch `develop` di Remote Repository ke proyek di komputer lokal
+- [ ] Tahap 4.25 Menghapus branch `feature/c` dan `feature/d` di komputer lokal
+- [ ] Tahap 4.26 Membuat branch `release/v0.3.0`
+- [ ] Tahap 4.27 Pindah ke branch `release/v0.3.0`
+- [ ] Tahap 4.28 Menyilang status tahapan pada file `sedang-dikerjakan.md` (poin 2.5 hingga 2.7) dan `selesai-dikerjakan` (poin 2.1) sebagai commit dengan pesan "feat: release feature/c and feature/d"
+- [ ] Tahap 4.29 Melakukan push terhadap branch `release/v0.3.0` ke Remote Repository
+- [ ] Tahap 4.30 Melakukan pull request dari branch `release/v0.3.0` ke branch `develop` sebagai commit dengan pesan "Merge branch 'release/v0.3.0' into develop"
+- [ ] Tahap 4.31 Melakukan pull request dari branch `release/v0.3.0` ke branch `main` sebagai commit dengan pesan "Merge branch 'release/v0.3.0'"
+- [ ] Tahap 4.32 Kembali ke proyek di komputer lokal dan pindah ke branch `develop`
+- [ ] Tahap 4.33 Perbarui remote tracking branch dan lakukan pull untuk menerapkan pembaruan dari branch `develop` pada Remote Repository ke proyek di komputer lokal
+- [ ] Tahap 4.35 Pindah ke branch `main`
+- [ ] Tahap 4.36 Melakukan pull untuk menerapkan pembaruan dari branch `main` pada Remote Repository ke proyek di komputer lokal
+- [ ] Tahap 4.37 Membuat tag `v0.3.0` pada branch `main` terkini yang di-push ke Remote Repository
